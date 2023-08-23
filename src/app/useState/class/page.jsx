@@ -1,5 +1,6 @@
 "use client"
 import React, {Component} from 'react';
+import Home from "@/app/page";
 
 class Page extends Component {
 
@@ -13,6 +14,7 @@ class Page extends Component {
     render() {
         return (
             <div>
+                <Home></Home>
                 <h2>class component</h2>
                 <p>counter: {this.state.counter}</p>
                 <button onClick={()=>this.increase()}>increase</button>

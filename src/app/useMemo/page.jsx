@@ -2,6 +2,7 @@
 //ama bu memo kaybolabilir o yüzden proje memo olmadna yzılır performans için sonradan eklenir
 "use client"
 import React from 'react';
+import Home from "@/app/page";
 
 const users = [
     { id: 'a', name: 'Robin' },
@@ -32,6 +33,7 @@ const myUseMemo = () => {
 
     return (
         <div>
+            <Home></Home>
             <input type="text" value={text} onChange={handleText} />
             <button type="button" onClick={handleSearch}>
                 Search

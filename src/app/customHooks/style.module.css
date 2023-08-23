@@ -1,7 +1,7 @@
 .App {
     font-family: sans-serif;
     text-align: center;
-
+    align-items: flex-start;
 
 }
 
@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     color: black;
+    align-items: flex-end;
 }
 
 .label {

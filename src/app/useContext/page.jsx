@@ -4,6 +4,7 @@ import UserList from "@/components/UserList";
 import userList from "@/components/UserList";
 
 import {userContext} from "@/context/userContext";
+import Home from "@/app/page";
 
 const data=[
     {id:1,name:"emin", email:"xxxx@gmail.com", age:25 , color:"lightcyan"},
@@ -23,6 +24,7 @@ const UseContext=()=>{
     const style={color:"black"}
 return (
     <userContext.Provider value={{users,changeColor}}>
+        <Home></Home>
         <div style={style}>
             <h1>welcome!</h1>
             <UserList ></UserList>

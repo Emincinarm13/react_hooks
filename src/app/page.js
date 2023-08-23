@@ -7,34 +7,34 @@ export default function Home() {
       <h1>REACT HOOKS</h1>
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <Link href={"useState/class"}> UseState class component</Link>
+          <Link href={"/useState/class"}> UseState class component</Link>
         </li>
         <li className={styles.li} >
-          <Link href={"useState/functional"}> UseState function component</Link>
+          <Link href={"/useState/functional"}> UseState function component</Link>
         </li>
         <li className={styles.li}>
-          <Link href={"useContext"}> useContext</Link>
+          <Link href={"/useContext"}> useContext</Link>
         </li>
         <li className={styles.li}>
-          <Link href={"useEffect/class"}> useEffect class component</Link>
+          <Link href={"/useEffect/class"}> useEffect class component</Link>
         </li>
         <li className={styles.li}>
-          <Link href={"useEffect/functional"}> useEffect function component</Link>
+          <Link href={"/useEffect/functional"}> useEffect function component</Link>
         </li>
         <li className={styles.li}>
-          <Link href={"reactMemoAndCallback"}> React.memo and useCallback</Link>
+          <Link href={"/reactMemoAndCallback"}> React.memo and useCallback</Link>
         </li>
         <li className={styles.li}>
-          <Link href={"useMemo"}>useMemo</Link>
+          <Link href={"/useMemo"}>useMemo</Link>
         </li>
         <li className={styles.li}>
-          <Link href={"useReducer"}> useReducer</Link>
+          <Link href={"/useReducer"}> useReducer</Link>
         </li>
         <li className={styles.li}>
-          <Link href={"useRef"}> useRef</Link>
+          <Link href={"/useRef"}> useRef</Link>
         </li>
         <li className={styles.li}>
-          <Link href={"customHooks"}> custom hooks</Link>
+          <Link href={"/customHooks"}> custom hooks</Link>
         </li>
       </ul>
 

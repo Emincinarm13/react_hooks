@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import styles from "./style.module.css"
 import {useInput} from "@/app/customHooks/useInputHook";
-
+import Home from "@/app/page";
 export default function CustomHooks() {
    /* const [name, setName] = useState("");
     const [age, setAge] = useState("");
@@ -18,6 +18,7 @@ const [inputs,setInputs]=useInput({name:"",age:"",email:""});
 
     return (
         <div className={styles.App}>
+            <Home></Home>
             <h1>React Dersleri</h1>
             <h2>Özel hook nasıl yazılır?</h2>
 

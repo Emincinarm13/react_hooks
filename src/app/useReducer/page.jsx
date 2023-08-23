@@ -4,6 +4,7 @@
 "use client"
 import React, {useReducer, useState} from "react";
 import {reducer} from "./reducer";
+import Home from "@/app/page";
 
 const initialState={
     data:"",
@@ -29,6 +30,7 @@ const myReducer= ()=>{
 
     return(
         <div>
+            <Home></Home>
         <button onClick={fetchDog} disabled={loading}>Fetch Dog</button>
             {data &&(
                 <div>

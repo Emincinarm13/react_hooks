@@ -5,6 +5,7 @@
 "use client"
 import React, {useCallback, useState} from "react";
 import styles from "./style.module.css";
+import Home from "@/app/page";
 
 const phones = [
     { name: "iPhone 12", price: 14000 },
@@ -36,6 +37,7 @@ const CallbackandMemo = () => {
 const Products = React.memo(({ products, addToCart }) => {
     return (
         <>
+            <Home></Home>
             <h1>Ürünler</h1>
             <div className={styles.products}>
                 {products.map(({ name, price }) => (

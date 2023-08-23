@@ -1,6 +1,7 @@
 //domlara erişim
 "use client"
 import React, {useEffect, useRef} from "react";
+import Home from "@/app/page";
 
 const myUseRef=()=>{
         const inputRef=useRef();
@@ -16,13 +17,17 @@ const myUseRef=()=>{
             console.log(inputRef)
         })
     return(
-        <div ref={divRef}>
-            <h1>react hooks-useRef</h1>
+      <div>
+          <Home></Home>
+          <div ref={divRef}>
 
-            <input ref={inputRef}/>
-            <button onClick={onFocusButton}>inputa focus ol</button>
-            <button onClick={onDivBorder}>border ekle</button>
-        </div>
+              <h1>react hooks-useRef</h1>
+
+              <input ref={inputRef}/>
+              <button onClick={onFocusButton}>inputa focus ol</button>
+              <button onClick={onDivBorder}>border ekle</button>
+          </div>
+      </div>
     )
 }
 
