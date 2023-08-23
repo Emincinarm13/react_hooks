@@ -1,3 +1,7 @@
+//burada useCallback ve React memo bizim sayfada gereksiz renderlardan kurtulmamızı sağlar
+
+
+
 "use client"
 import React, {useCallback, useState} from "react";
 import styles from "./style.module.css";
