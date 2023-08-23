@@ -31,7 +31,7 @@ const FunctionComponent=()=>{
 
         <div>
             <Home></Home>
-            <h2>funcctional component</h2>
+            <h2>useEffect funcctional component</h2>
             <p>counter: {counter}</p>
             <button onClick={()=>increase()} >increase</button>
         </div>

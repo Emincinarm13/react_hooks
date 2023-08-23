@@ -38,7 +38,8 @@ const Products = React.memo(({ products, addToCart }) => {
     return (
         <>
             <Home></Home>
-            <h1>Ürünler</h1>
+            <h1>React.memo and useCallback</h1>
+            <h4>Ürünler</h4>
             <div className={styles.products}>
                 {products.map(({ name, price }) => (
                     <Product key={name} name={name} price={price} addToCart={addToCart} />

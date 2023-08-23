@@ -34,6 +34,7 @@ const myUseMemo = () => {
     return (
         <div>
             <Home></Home>
+            <h1>useMemo</h1>
             <input type="text" value={text} onChange={handleText} />
             <button type="button" onClick={handleSearch}>
                 Search

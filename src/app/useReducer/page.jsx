@@ -31,6 +31,7 @@ const myReducer= ()=>{
     return(
         <div>
             <Home></Home>
+            <h1>useReducer</h1>
         <button onClick={fetchDog} disabled={loading}>Fetch Dog</button>
             {data &&(
                 <div>

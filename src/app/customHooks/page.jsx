@@ -19,8 +19,8 @@ const [inputs,setInputs]=useInput({name:"",age:"",email:""});
     return (
         <div className={styles.App}>
             <Home></Home>
-            <h1>React Dersleri</h1>
-            <h2>Özel hook nasıl yazılır?</h2>
+            <h1>Custom Hooks</h1>
+
 
             { /* prettier-ignore */}
             <form className={styles.form}>

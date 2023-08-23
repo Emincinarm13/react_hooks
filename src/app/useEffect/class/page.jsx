@@ -39,7 +39,7 @@ class Page extends Component {
         return (
             <div>
                 <Home></Home>
-                <h2>class component</h2>
+                <h2>useEffect class component</h2>
                 <p>counter: {this.state.counter}</p>
                 <button onClick={()=>this.increase()}>increase</button>
             </div>

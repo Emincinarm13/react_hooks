@@ -25,6 +25,7 @@ const UseContext=()=>{
 return (
     <userContext.Provider value={{users,changeColor}}>
         <Home></Home>
+        <h1>useContext</h1>
         <div style={style}>
             <h1>welcome!</h1>
             <UserList ></UserList>
