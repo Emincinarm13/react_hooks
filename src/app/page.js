@@ -33,6 +33,9 @@ export default function Home() {
         <li className={styles.li}>
           <Link href={"useRef"}> useRef</Link>
         </li>
+        <li className={styles.li}>
+          <Link href={"customHooks"}> custom hooks</Link>
+        </li>
       </ul>
 
     </main>
